@@ -50,10 +50,53 @@
 
       <h3>Share your story with us!</h3>
       <p>
-        Want to join our family and share your happiness with us? Send your
-        story to us at Email: YT@PawsnClaws.org. We can't wait to hear from you
-        and celebrate your journey together!
+        Want to join our family and share your happiness with us? We can't wait
+        to hear from you and celebrate your journey together!
       </p>
+      <form>
+        <fieldset>
+          <legend>Contact Form</legend>
+
+          <label for="name">Enter your full name</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Enter your email</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="phone">Enter your phone</label><br />
+          <input type="text" id="phone" name="phone" /><br /><br />
+
+          <p>How should we contact you?</p>
+          <input
+            type="radio"
+            id="email-contact"
+            name="contact-method"
+            value="email"
+          />
+          <label for="email-contact">Email</label><br />
+          <input
+            type="radio"
+            id="phone-contact"
+            name="contact-method"
+            value="phone"
+          />
+          <label for="phone-contact">Phone</label><br /><br />
+
+          <label for="pet">Which pet do you have?</label><br />
+          <select id="pet" name="pet">
+            <option value="pet">cat</option>
+            <option value="pet">dog</option>
+            <option value="pet">rabbit</option>
+            <option value="pet">bird</option></select
+          ><br /><br />
+
+          <label for="referral">Let's share your story:</label><br />
+          <textarea id="referral" name="referral" rows="5" cols="30"></textarea
+          ><br /><br />
+
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
     </main>
 
     <footer>
