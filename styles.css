@@ -1,3 +1,5 @@
+/*previous version
+
 header {
   background-color: rgb(200, 182, 216);
 }
@@ -14,4 +16,234 @@ footer img {
 
 footer p {
   margin-top: 10px;
+} */
+
+/* version 2.0 */
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+/* Header */
+header {
+  display: flex; /* logo nav horizontal */
+  justify-content: space-between; /* logo nav left and right */
+  align-items: center; /* vertical-centered */
+  padding: 10px 20px;
+  background-color: #141414;
+  border-bottom: 2px solid #643f8a;
+}
+
+.logo img {
+  height: 50px;
+  width: auto; /* keep ratio */
+}
+.main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* nav horizontal*/
+}
+
+.main-nav ul li {
+  margin-left: 20px; /* menu margin space */
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav ul li a:hover {
+  color: #643f8a;
+}
+
+/* kv Section */
+.kv {
+  background-image: url("images/kvpic.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+  background-position: center;
+  height: 600px;
+}
+
+.kv h1 {
+  font-size: 126px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.kv p {
+  font-size: 24px;
+}
+
+/* Pets Section */
+.pets {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.pets-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pets h2 {
+  font-size: 30px;
+  margin-bottom: 80px;
+  margin-top: 120px;
+}
+
+.pet {
+  width: 320px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+.pet img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.pet h3 {
+  font-size: 24px;
+  margin: 20px 0 5px;
+  color: #643f8a;
+}
+
+/* More Pets Section */
+.more-pets {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.more-pets h2 {
+  color: #141414;
+  font-size: 30px;
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+/* Table Styling */
+table {
+  width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #643f8a;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  font-size: 16px;
+}
+
+/* Adoption Process Section */
+.adoption-process {
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.adoption-process h2 {
+  font-size: 30px;
+  color: #141414;
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+/* Steps Grid */
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+.step {
+  width: 320px;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.step img {
+  width: 360px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-size: 24px;
+  color: #643f8a;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  color: #141414;
+  line-height: 1.6;
+  margin-bottom: 160px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.footer-logo img {
+  width: auto;
+  height: 40px;
+}
+.socialmedia img {
+  height: 40px;
+  margin-top: 20px;
+  width: auto;
+}
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+  color: #643f8a;
 }

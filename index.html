@@ -6,105 +6,142 @@
     <title>Paws and Claws - Pet Adoption</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header>
-      <!--  add logo here -->
 
-      <img
-        src="images/logo.png"
-        alt="Paws and Claws Logo"
-        width="808"
-        height="194"
-      />
-      <h1>Welcome to Paws and Claws - Pet Adoption</h1>
-      <nav>
+  <body>
+    <!-- Header Section -->
+
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Paws and Claws Logo" />
+      </div>
+      <nav class="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="ourstories.html">Our stories</a></li>
+          <li><a href="services.html">Services</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h2>Available Pets for Adoption</h2>
-      <p>
-        We have an adorable assortment of pets just waiting to find their
-        forever homes! Whether your heart is set on a playful kitten, a loyal
-        pup, or even a cuddly rabbit, Paws and Claws is here to help you find
-        your perfect furry companion. From wagging tails to purring snuggles,
-        we’ve got the ideal friend to bring joy and love into your life!
-      </p>
+    <!-- kv Section -->
+    <section class="kv">
+      <h1>Every Tail Tells a Story, Every Paw Finds a Home.</h1>
+      <p>Discover Love, Adopt with Paws & Claws!</p>
+    </section>
 
-      <h3>Featured Pets</h3>
-      <div class="featured-pets">
-        <img
-          src="images/luna.jpg"
-          alt="Luna the Cat"
-          width="150"
-          height="150"
-        />
-        <img src="images/joy.jpg" alt="Joy the Cat" width="150" height="150" />
-        <img
-          src="images/patty.jpg"
-          alt="Patty the Dog"
-          width="150"
-          height="150"
-        />
-        <img
-          src="images/milo.jpg"
-          alt="Milo the Dog"
-          width="150"
-          height="150"
-        />
+    <!-- Pets Waiting for Adoption Section -->
+    <section class="pets">
+      <h2>Pets Waiting for Adoption</h2>
+      <div class="pets-grid">
+        <div class="pet">
+          <img src="images/Luna.jpg" alt="Luna the Cat" />
+          <h3>Luna</h3>
+          <p>1 Year, Female, Domestic Shorthair</p>
+        </div>
+        <div class="pet">
+          <img src="images/joy.jpg" alt="Joy the Cat" />
+          <h3>Joy</h3>
+          <p>5 Months, Male, Domestic Shorthair</p>
+        </div>
+        <div class="pet">
+          <img src="images/patty.jpg" alt="Patty the Dog" />
+          <h3>Patty</h3>
+          <p>3 Months, Female, German Shepherd</p>
+        </div>
+        <div class="pet">
+          <img src="images/milo.jpg" alt="Milo the Dog" />
+          <h3>Milo</h3>
+          <p>4 Years, Male, Golden Retriever</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="more-pets">
+      <h2>More Pets</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Pet Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MAX</td>
+            <td>4 Months</td>
+            <td>Male</td>
+            <td>Dog</td>
+          </tr>
+          <tr>
+            <td>BELLA</td>
+            <td>9 Months</td>
+            <td>Female</td>
+            <td>Dog</td>
+          </tr>
+          <tr>
+            <td>ROSIE</td>
+            <td>2 Years</td>
+            <td>Female</td>
+            <td>Cat</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Adoption Process Section -->
+    <section class="adoption-process">
+      <h2>Adoption Process</h2>
+      <div class="steps">
+        <div class="step">
+          <img src="images/ap1.jpg" alt="ap1 Image" />
+          <h3>01/ Meet Your Match</h3>
+          <p>
+            Browse through our available pets online or visit our shelter to
+            meet the adorable animals waiting for a loving home. Whether you're
+            looking for a playful kitten or a loyal pup, you'll find your
+            perfect match.
+          </p>
+        </div>
+        <div class="step">
+          <img src="images/ap2.jpg" alt="ap2 Image" />
+          <h3>02/ Submit an Application</h3>
+          <p>
+            Once you've found your future companion, simply fill out our
+            adoption application. This helps us ensure that you and your new pet
+            are a great fit for each other.
+          </p>
+        </div>
+        <div class="step">
+          <img src="images/ap3.jpg" alt="ap3 Image" />
+          <h3>03/ Welcome Home</h3>
+          <p>
+            After approval, it's time to bring your new furry friend home! We'll
+            provide all the necessary information and support to ensure a smooth
+            transition for both you and your pet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="Paws & Claws Logo" />
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+      <div class="socialmedia">
+        <img src="images/socialmedia.png" alt="socialmedia" />
       </div>
 
-      <ul>
-        <li>Luna the Cat</li>
-        <li>Joy the Cat</li>
-        <li>Patty the Dog</li>
-        <li>Milo the Dog</li>
-      </ul>
-
-      <h3>Adoption Table</h3>
-      <table border="1">
-        <tr>
-          <th>Pet Name</th>
-          <th>Type</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Luna</td>
-          <td>Cat</td>
-          <td>1 year</td>
-        </tr>
-        <tr>
-          <td>Joy</td>
-          <td>Cat</td>
-          <td>8 months</td>
-        </tr>
-        <tr>
-          <td>Patty</td>
-          <td>Dog</td>
-          <td>3 months</td>
-        </tr>
-        <tr>
-          <td>Milo</td>
-          <td>dog</td>
-          <td>4 year</td>
-        </tr>
-      </table>
-      <p></p>
-    </main>
-
-    <footer>
-      <img
-        src="images/banner.jpg"
-        alt="Paws and Claws Banner"
-        width="1036"
-        height="82"
-      />
-      <p>&copy; 2024 Paws and Claws Pet Adoption</p>
+      <p>&copy; 2024 Paws & Claws. All Rights Reserved</p>
     </footer>
   </body>
 </html>
